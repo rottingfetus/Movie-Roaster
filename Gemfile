@@ -22,7 +22,14 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'devise', '~> 3.5', '>= 3.5.6'
+gem 'paperclip', '~> 4.3', '>= 4.3.5'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'searchkick', '~> 1.2', '>= 1.2.1'
+gem 'elasticsearch', git: 'git://github.com/elasticsearch/elasticsearch-ruby.git'
+gem 'omniauth', '~> 1.3', '>= 1.3.1'
+gem 'omniauth-twitter', '~> 1.2', '>= 1.2.1'
+gem 'omniauth-facebook', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -44,4 +51,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-

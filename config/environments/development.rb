@@ -38,4 +38,10 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  #za Devise
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  
+  #za ImageMagick
+  Paperclip.options[:command_path] = "/usr/local/bin/"
 end

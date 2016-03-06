@@ -1,0 +1,184 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body
+{
+    background-image: url('bck_img.png');
+    background-size: cover;
+}
+.review_title
+{
+    margin: 0 0 20px 0;
+}
+.reviews
+{
+    padding: 15px 0;
+    border-bottom: 1px solid #EAEAEA;
+    .star-rating
+    {
+        padding-bottom: 8px;
+    }
+}
+a
+{
+    font-size:21px;
+}
+a:hover
+{
+    background-color:rgba(0,0,0,0);
+    font-decoration:none;
+    color:rgb(80,80,80);
+}
+h1
+{
+    color:rgb(0, 153, 255);
+    text-shadow:1px 1px black;
+}
+.movie
+{
+    background-color:white;
+    padding-left:10px;
+}
+.user
+{
+    background-color:white;
+    padding-left:10px;
+}
+.newreview
+{
+    background-color:white;
+    padding-left:10px;
+}
+.editingreview
+{
+    background-color:white;
+    padding-left:10px;
+}
+.login
+{
+    width:400px;
+    margin:0 auto;
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color:white;
+    padding-left:10px;
+    text-align:center;
+    border:1px solid rgba(80,80,80,0.6);
+    border-radius:10px;
+}
+.logintext
+{
+    width:250px;
+    height:30px;
+    background:transparent;
+    border:1px solid rgba(80,80,80,0.6);
+    border-radius:2px;
+    color:rgb(80,80,80);
+    font-family:sans-serif;
+    font-size:16px;
+    margin-top:10px;
+}
+.logintexttxt
+{
+    width:250px;
+    height:30px;
+    background:transparent;
+    color:rgb(80,80,80);
+    font-family:sans-serif;
+    font-size:16px;
+    padding:4px;
+    margin-top:10px;
+}
+.loginpass
+{
+    width:250px;
+    height:30px;
+    background:transparent;
+    border:1px solid rgba(80,80,80,0.6);
+    border-radius:2px;
+    color:rgb(80,80,80);
+    font-family:sans-serif;
+    font-size:16px;
+    padding:4px;
+    margin-top:10px;
+}
+.loginpasstxt
+{
+    width:250px;
+    height:30px;
+    background:transparent;
+    color:rgb(80,80,80);
+    font-family:sans-serif;
+    font-size:16px;
+    padding:4px;
+    margin-top:10px;
+}
+.loginbutton
+{
+    width:250px;
+    height:35px;
+    color:rgb(60,60,60);
+    border:1px solid rgb(80,80,80);
+    cursor:pointer;
+    border-radius:2px;
+    color:white;
+    font-family:sans-serif;
+    font-size:16px;
+    padding:6px;
+    margin-top:10px;
+}
+.login button:hover
+{
+    opacity:0.8;
+}
+.login button:active
+{
+    opacity:0.6;
+}
+.login button:focus
+{
+    outline:none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+.logindesc
+{
+    width:250px;
+    height:150px;
+    background:transparent;
+    border:1px solid rgba(80,80,80,0.6);
+    border-radius:2px;
+    color:rgb(80,80,80);
+    font-family:sans-serif;
+    font-size:16px;
+    margin-top:10px;
+}
+.error
+{
+    font-size:18px;
+    background-color:white;
+    border-radius:10px;
+}
+.padding
+{
+    padding-left:15px;
+}
+.panel-default
+{
+    border:1px solid rgba(80,80,80,0.6);
+    border-radius:10px;
+}
