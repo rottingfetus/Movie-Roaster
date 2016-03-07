@@ -24,7 +24,7 @@ class User < ActiveRecord::Base
   else
     super
   end
-end   
+  end   
     def password_required?
       super && provider.blank?
     end
