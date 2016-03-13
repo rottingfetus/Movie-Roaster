@@ -15,6 +15,15 @@ class User < ActiveRecord::Base
       user.save
     end
   end
+  
+  def self.valid_user?(resource)
+    resource && resource.is_a?(User) && resource.valid?
+  end
+
+  def log_devise_action(new_action)
+    DeviseUsageLog.create!(user_id: id, role: role, user_ip: current_sign_in_ip, username: username, action: new_action)
+  end
+  
   def self.new_with_session(params, session)
   if session["devise.user_attributes"]
     new(session["devise.user_attributes"], without_protection: true) do |user|

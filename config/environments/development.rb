@@ -44,4 +44,6 @@ Rails.application.configure do
   
   #za ImageMagick
   Paperclip.options[:command_path] = "/usr/local/bin/"
+  
+  config.devise_usage_log_level = :all
 end

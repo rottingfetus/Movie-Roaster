@@ -79,4 +79,6 @@ Rails.application.configure do
   
   config.serve_static_assets = true
   config.assets.compile = true
+  
+  config.devise_usage_log_level = :all
 end
