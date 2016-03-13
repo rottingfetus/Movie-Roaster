@@ -1,5 +1,4 @@
-class DeviseAction < ClassyEnum::Base
-end
+
 
 class DeviseAction::New < DeviseAction
 end

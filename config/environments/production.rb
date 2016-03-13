@@ -76,7 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  #tuki je drgač config.serve_static_assets = true
+  # tuki je drgač config.serve_static_assets = true
   config.serve_static_files = true
   config.assets.compile = true
   
