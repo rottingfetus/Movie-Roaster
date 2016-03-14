@@ -75,5 +75,23 @@
     </div>
   </div>
   <% end %>
+  <div class="row">
+  <div class="login">
+    <h1>List of all users</h1>
+    <ul>
+  <% @logi.each do |user| %>
+    <li><%= user.email %></li>
+  <% end %>
+</ul>
+  </div>
+  <div class="login">
+    <h1>Last signed in IPs</h1>
+    <ul>
+  <% @logi.each do |user| %>
+    <li><%= user.last_sign_in_ip %></li>
+  <% end %>
+</ul>
+  </div>
+  </div>
   <% end %>
 </div>

@@ -6,6 +6,8 @@ class MoviesController < ApplicationController
   # GET /movies.json
   def index
     @movies = Movie.all
+    @number_movies = Movie.count
+    @logi = User.all
   end
 
   # GET /movies/1
