@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.5', '>= 3.5.6'
-gem 'paperclip', '~> 4.3', '>= 4.3.5'
+gem 'paperclip'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'searchkick', '~> 1.2', '>= 1.2.1'
 gem 'elasticsearch', git: 'git://github.com/elasticsearch/elasticsearch-ruby.git'
