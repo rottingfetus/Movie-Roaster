@@ -29,6 +29,7 @@ gem 'elasticsearch', git: 'git://github.com/elasticsearch/elasticsearch-ruby.git
 gem 'omniauth', '~> 1.3', '>= 1.3.1'
 gem 'omniauth-twitter', '~> 1.2', '>= 1.2.1'
 gem 'omniauth-facebook', '~> 3.0'
+gem 'rails_serve_static_assets'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
